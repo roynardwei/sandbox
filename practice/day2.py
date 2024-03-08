@@ -1,4 +1,6 @@
 # 資料型態
+# create by Roy wei 24/3/5
+
 
 # 字串 string
 name = "你好"
@@ -46,3 +48,24 @@ print(num1+num2)
 num1 = str(10)
 print(type(num1))
 print(num1+"你好")
+
+#測試一
+num = input("請輸入一個兩位數數字:")
+digit1 = float(num[0])
+digit2 = float(num[1]) #可使用float 轉成小數點#
+
+print(type(digit1))
+print(type(digit2))
+print(digit1+digit2)
+
+# 一些字串的用法放引號,換行,
+print('他今年"25"歲')
+print("他今年\"25\"歲")
+
+print("大家好我是小白\n今天天氣真好")
+age = 25
+height = 175.5
+is_male = True
+print("小白的年紀是"+ str(age) +"歲，身高"+ str(height) +"CM，是否為男性:"+str(is_male))
+f-string # 在字串最前面加f 字串中的變數可以加上大括號
+print(f"小白的年紀是{age}歲，身高{height}CM，是否為男性:{is_male}")
