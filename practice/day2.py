@@ -69,3 +69,20 @@ is_male = True
 print("小白的年紀是"+ str(age) +"歲，身高"+ str(height) +"CM，是否為男性:"+str(is_male))
 f-string # 在字串最前面加f 字串中的變數可以加上大括號
 print(f"小白的年紀是{age}歲，身高{height}CM，是否為男性:{is_male}")
+
+# 運算符號、數字用法
+''' 
+print(2+3)
+print(2-3)
+print(2*3)
+print(2/3) 除法會小數點# print(7//3) //是整數除法
+print(5**2) **前面數字的次方
+print(8%3) %取餘數 8%3餘2
+print(6+(3-2)//3) 遵守先乘除後加減
+'''
+print(round(1.33333, 2))
+# num = 10
+# num + = 1
+# num * = 2
+# print(num)
+# 到project2
