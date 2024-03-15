@@ -10,4 +10,5 @@ height = height / 100
 #轉換成公尺 height / = 100,另種寫法
 
 bmi = weight / height**2
+bmi = round(bmi, 1)
 print(f"你的BMI是:{bmi}")
