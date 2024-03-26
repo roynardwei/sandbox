@@ -69,4 +69,5 @@
 
 score1 = 80
 if not score1 > 80:
-    print("你給我100元")
+    print("你給我100元"
+          "")
