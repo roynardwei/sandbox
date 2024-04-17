@@ -1,7 +1,6 @@
 # 資料型態
 # create by Roy wei 24/3/5
 
-
 # 字串 string
 name = "你好"
 print(name)
