@@ -12,3 +12,4 @@ index = 0
 while index < len(data):
     print(id(data[index]))
     index += 1
+
