@@ -17,13 +17,18 @@ class Animal:
         print("Animal的吃")
     def sound(self):
         pass
-
+    @classmethod
+    def piss(self):
+        print("niao niao")
+Animal.piss()
 print (Animal.Banimal)
 a1 = Animal('財')
 a2 = Animal('白')
 print(a1.Banimal)
 a2.Banimal = False
 print(a2.Banimal)
+print(id(a1.sound))
+print(id(a2.sound))
 
 #
 # class Dog(Animal):
