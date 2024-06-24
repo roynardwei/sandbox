@@ -37,7 +37,7 @@ def is_iris(number:int)->bool:
 print(is_iris(153))
 
 # 方式二
-def is_iris2(number:int)->bool:
+def is_iris2(number:int)->bool: #bool true or false.
     if number > 999 or number <100:
         return False
     gewei = number %10 # 取餘數會剩下個位數
