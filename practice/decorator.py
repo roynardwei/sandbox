@@ -2,7 +2,7 @@
 import time
 
 def timer(func):
-    def inner(*args, **kwargs):
+    def inner(*args, **kwargs):  #args 會成為元祖,數字， Kwargs會成為字典,'b'=4,
         for d in args:
             print(d)
         start = time.time()
